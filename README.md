@@ -4,56 +4,76 @@
 
 **Applied data science inside impact measurement**
 
-M&E data systems · Evaluation support · Donor-reporting automation
+M&E data systems · Project delivery · Donor-reporting automation
 
 ![Location](https://img.shields.io/badge/Nairobi%2C%20Kenya-📍-D97706?style=flat-square)
 ![Focus](https://img.shields.io/badge/UN%20%26%20NGO%20programmes-East%20Africa-8B5CF6?style=flat-square)
-[![Portfolio](https://img.shields.io/badge/portfolio-kamama--digital--canvas.vercel.app-2563EB?style=flat-square)](https://kamama-digital-canvas.vercel.app)
+[![Portfolio](https://img.shields.io/badge/portfolio-kamama--portfolio.vercel.app-2563EB?style=flat-square)](https://kamama-portfolio.vercel.app/)
 [![X / Twitter](https://img.shields.io/badge/@blurred__cmk-111827?style=flat-square&logo=x)](https://x.com/blurred_cmk)
 
 </div>
 
 ---
 
-## Mission
+## Overview
 
-I build the data side of impact measurement: monitoring and evaluation (M&E) systems, MEAL
-workflows and donor-reporting automation for United Nations and NGO programmes in East Africa.
-The work ranges from humanitarian analytics platforms that join UN open data, to production
-ERP/POS systems that run Kenyan retail, to applied AI — RAG systems and profiling engines —
-grounded in authoritative frameworks. What holds the portfolio together is a governance-first
-approach: auditable pipelines, partitioned data sovereignty, reproducible analyses and
-documented trade-offs, so that every claim a system makes can be traced to evidence.
+I design and deliver the data side of impact measurement — monitoring & evaluation (M&E) systems, MEAL workflows and donor-reporting automation for United Nations and NGO programmes in East Africa — plus the production business platforms behind Kenyan retail and field operations. The work spans humanitarian analytics platforms that join UN open data, applied AI grounded in authoritative frameworks, and multi-tenant ERP/POS systems built for daily commercial use. What holds it together is a governance-first approach: auditable pipelines, partitioned data sovereignty, reproducible analyses and documented trade-offs, so that every claim a system makes can be traced back to evidence.
+
+Projects here are run as projects, not experiments. Engagements open with a written charter that fixes the problem, the scope boundaries and the success criteria; delivery is staged through requirements, architecture, build and verification; and closure means documentation a successor can operate without me. That discipline is visible across the 48 public repositories below — charters, standards, case-study write-ups and archived context stubs are part of the deliverable, not an afterthought.
+
+The goal is simple: to be the person a UN country office, an NGO MEAL team or an East African operator calls when a data system has to work in the field — offline, audited and donor-ready. If that is your problem, start with the flagship systems below or go straight to the [portfolio site](https://kamama-portfolio.vercel.app/).
+
+| | |
+| --- | --- |
+| **Base** | Nairobi, Kenya — delivering across East Africa |
+| **Focus** | M&E data systems · applied AI · production business platforms |
+| **Delivery style** | Charter-first scoping, staged lifecycles, handover-ready documentation |
+| **Open to** | M&E data-systems engagements, evaluation-support automation, collaborations |
+
+## How I run projects
+
+Project management in this account is not a claim — it is a practice you can audit. Six disciplines, each anchored to repositories you can open right now:
+
+| Discipline | What it looks like here |
+| --- | --- |
+| **Charter-first scoping** | Complex builds open with a written charter — problem, scope, non-goals, success criteria — before any code: [isp-field-ops-automation](https://github.com/collins-muchiri/isp-field-ops-automation/) · [email-agent](https://github.com/collins-muchiri/email-agent/) |
+| **Lifecycle ownership** | Single-owner delivery from requirements to data model to build to deploy: [mbumah-hardware-pos](https://github.com/collins-muchiri/mbumah-hardware-pos/) runs a multi-tenant retail loop end to end; [retail-erp-pos-kenya](https://github.com/collins-muchiri/retail-erp-pos-kenya/) carries statutory compliance (KRA eTIMS, M-Pesa) inside the roadmap. |
+| **MEAL-aligned design** | Systems are shaped around indicator definitions, review workflows and donor-reporting cycles rather than around dashboards: [un-review-hub](https://github.com/collins-muchiri/un-review-hub/), [un-sdg-east-africa-insights-pipeline](https://github.com/collins-muchiri/un-sdg-east-africa-insights-pipeline/), [ngo-insights-ai](https://github.com/collins-muchiri/ngo-insights-ai/) |
+| **Governance & risk control** | Data sovereignty by partitioning for lawful cross-agency review ([un-review-hub](https://github.com/collins-muchiri/un-review-hub/)); survey-data privacy risk audited and costed against the Kenya Data Protection Act 2019 and GDPR ([responsible-dq-engine](https://github.com/collins-muchiri/responsible-dq-engine/)) |
+| **Documentation & handover** | A standing reproducibility standard governs the analysis repositories; archived learning repositories keep context stubs instead of silent deletion; flagship systems ship with run-and-verify instructions |
+| **Staged, risk-managed delivery** | Prototypes graduate instead of stalling: the MBUMAH line moves from the [mbumah-hardware-final-prototype](https://github.com/collins-muchiri/mbumah-hardware-final-prototype/) RFQ catalogue to the full [mbumah-hardware-pos](https://github.com/collins-muchiri/mbumah-hardware-pos/) platform; offline-first architecture is chosen where connectivity fails ([dukaflow-mobile](https://github.com/collins-muchiri/dukaflow-mobile/), [retail-erp-pos-kenya](https://github.com/collins-muchiri/retail-erp-pos-kenya/)) |
 
 ## Capabilities
 
 | | |
 | --- | --- |
-| **M&E & humanitarian data systems** | Nine systems covering MEAL workflows, federated UN review, humanitarian analytics and SDG monitoring for East African programmes. |
+| **M&E & humanitarian data systems** | Ten systems covering MEAL workflows, federated UN review, humanitarian analytics, SDG monitoring and survey data-quality auditing for East African programmes. |
 | **Applied AI & data science** | RAG systems, unsupervised profiling engines, statistical analysis and a three-artifact portfolio series demonstrating end-to-end craft. |
 | **Business platforms** | Kenya-specific POS/ERP with M-Pesa and KRA eTIMS readiness, offline-first Flutter mobile, and field-operations automation. |
 | **Web3 & distributed systems** | Blockchain inventory with autonomous AI agents, decentralized accounting, and a from-scratch Raft consensus implementation. |
+| **Project & delivery management** | Charter-first scoping, staged lifecycles, MEAL-aligned indicator design, data-governance controls and handover-ready documentation — practised in public across this account. |
 
-## Portfolio index
+## Portfolio index — 48 public repositories
 
 ### M&E & Humanitarian Data Systems
 
 | Repository | What it is | Language |
 | --- | --- | --- |
-| [gcf-food-security-intelligence](https://github.com/collins-muchiri/gcf-food-security-intelligence/) | AI platform predicting food-insecurity risk and simulating climate scenarios. | — |
+| [gcf-food-security-intelligence](https://github.com/collins-muchiri/gcf-food-security-intelligence/) | AI platform predicting food-insecurity risk and simulating climate scenarios for early action. | Python |
 | [humanitarian-coldchain-ledger](https://github.com/collins-muchiri/humanitarian-coldchain-ledger/) | Cold-chain integrity ledger prototype for humanitarian supply chains. | JavaScript |
 | [humanitarian-data-project](https://github.com/collins-muchiri/humanitarian-data-project/) | Reproducible data science on UN-sourced data (EM-DAT, UNHCR, World Bank). | Python |
-| [kenya-malnutrition-risk-prediction](https://github.com/collins-muchiri/kenya-malnutrition-risk-prediction/) | ML tool predicting acute childhood malnutrition risk in Kenya. | — |
+| [kenya-malnutrition-risk-prediction](https://github.com/collins-muchiri/kenya-malnutrition-risk-prediction/) | ML tool predicting acute childhood malnutrition risk in Kenya. | Python |
 | [ngo-insights-ai](https://github.com/collins-muchiri/ngo-insights-ai/) | AI outreach intelligence for East African NGOs; automates community data collection. | TypeScript |
+| [responsible-dq-engine](https://github.com/collins-muchiri/responsible-dq-engine/) | Audits ODK/KoboToolbox survey exports for data-quality and privacy risks (Kenya DPA 2019 / GDPR), with costed remediation. | Python |
 | [un-review-hub](https://github.com/collins-muchiri/un-review-hub/) | Federated human-in-the-loop review for UN agencies with partitioned data sovereignty. | TypeScript |
-| [un-sdg-east-africa](https://github.com/collins-muchiri/un-sdg-east-africa/) | SDG monitoring and analytics dashboard for East African policy. | — |
+| [un-sdg-east-africa](https://github.com/collins-muchiri/un-sdg-east-africa/) | SDG monitoring and analytics dashboard for East African governance and policy decisions. | Python |
 | [un-sdg-east-africa-insights-pipeline](https://github.com/collins-muchiri/un-sdg-east-africa-insights-pipeline/) | Governance-first SDG monitoring analytics pipeline, ingestion to insight. | Python |
 
 ### Applied AI & Data Science
 
 | Repository | What it is | Language |
 | --- | --- | --- |
-| [auto-jips](https://github.com/collins-muchiri/auto-jips/) | Automated Job Intelligence & Profiling System — algorithm-driven job analysis. | — |
+| [auto-jips](https://github.com/collins-muchiri/auto-jips/) | Automated Job Intelligence & Profiling System — algorithm-driven job analysis. | Python |
 | [email-agent](https://github.com/collins-muchiri/email-agent/) | Intelligent email automation agent — scheduling, filtering, responses (charter). | — |
 | [intelligent-profiling-engine](https://github.com/collins-muchiri/intelligent-profiling-engine/) | Hybrid AI profiling: unsupervised learning + NLP + human-in-the-loop. | Python |
 | [mck-dashboard-to-insight](https://github.com/collins-muchiri/mck-dashboard-to-insight/) | Artifact 3 — dashboard-to-insight write-up on a synthetic programme dashboard. | Python |
@@ -67,7 +87,7 @@ documented trade-offs, so that every claim a system makes can be traced to evide
 | Repository | What it is | Language |
 | --- | --- | --- |
 | [data-auto-system](https://github.com/collins-muchiri/data-auto-system/) | Data automation with analytics, scheduling and reporting; integration-ready. | Python |
-| [data-engineering-analytics-platform](https://github.com/collins-muchiri/data-engineering-analytics-platform/) | Modern analytics web app; React + TypeScript + shadcn/ui. | — |
+| [data-engineering-analytics-platform](https://github.com/collins-muchiri/data-engineering-analytics-platform/) | Modern analytics web app; React + TypeScript + shadcn/ui. | TypeScript |
 | [telecomdb](https://github.com/collins-muchiri/telecomdb/) | Telecom database management with analytics, reporting and pipelines. | Python |
 | [web-based-database-automation-system](https://github.com/collins-muchiri/web-based-database-automation-system/) | Multi-phase web-based database automation, management to analytics. | JavaScript |
 
@@ -78,9 +98,10 @@ documented trade-offs, so that every claim a system makes can be traced to evide
 | [dukaflow-mobile](https://github.com/collins-muchiri/dukaflow-mobile/) | DukaFlow — offline-first Flutter POS for Kenya (Android + iOS). | Dart |
 | [hardware-pos-erp](https://github.com/collins-muchiri/hardware-pos-erp/) | Hardware POS/ERP/inventory on Next.js 16 + Prisma + shadcn/ui. | TypeScript |
 | [isp-field-ops-automation](https://github.com/collins-muchiri/isp-field-ops-automation/) | ISP field-operations platform — real-time jobs, CRM/ERP integration (charter). | — |
+| [mbumah-hardware-final-prototype](https://github.com/collins-muchiri/mbumah-hardware-final-prototype/) | MBUMAH Hardware quotation-only catalogue: browse → RFQ list → WhatsApp confirmation, no checkout. | HTML |
 | [mbumah-hardware-pos](https://github.com/collins-muchiri/mbumah-hardware-pos/) | Multi-tenant hardware-store POS & ERP for Kenyan retail. | TypeScript |
 | [retail-erp-pos-kenya](https://github.com/collins-muchiri/retail-erp-pos-kenya/) | Kenya retail ERP+POS: offline-first, KRA eTIMS, M-Pesa, loyalty, debt plans. | TypeScript |
-| [uhasibu-platform](https://github.com/collins-muchiri/uhasibu-platform/) | Uhasibu — Kenya prediction-market MVP: secure PWA, OTP, virtual trading. | — |
+| [uhasibu-platform](https://github.com/collins-muchiri/uhasibu-platform/) | Uhasibu — Kenya prediction-market MVP: secure PWA, OTP, virtual trading. | JavaScript |
 
 ### Web3 & Distributed Systems
 
@@ -90,32 +111,33 @@ documented trade-offs, so that every claim a system makes can be traced to evide
 | [blockchain-login-system](https://github.com/collins-muchiri/blockchain-login-system/) | Blockchain-based identity verification for secure auth. | JavaScript |
 | [ethereum-todo-app](https://github.com/collins-muchiri/ethereum-todo-app/) | Decentralized todo dApp — on-chain task ownership on Ethereum. | JavaScript |
 | [python-raft-consensus](https://github.com/collins-muchiri/python-raft-consensus/) | From-scratch Raft consensus implementation in Python. | Python |
-| [web3-accounting-hub](https://github.com/collins-muchiri/web3-accounting-hub/) | Decentralized accounting and financial management hub. | — |
+| [web3-accounting-hub](https://github.com/collins-muchiri/web3-accounting-hub/) | Decentralized accounting and financial management hub. | TypeScript |
 
-### Websites, Brands & Portfolio
+### Websites, Brands & Community
 
 | Repository | What it is | Language |
 | --- | --- | --- |
-| [binti-rising-website](https://github.com/collins-muchiri/binti-rising-website/) | Public site of the Binti Rising initiative (canonical). | TypeScript |
+| [binti-rising-website](https://github.com/collins-muchiri/binti-rising-website/) | Public site of the Binti Rising initiative (canonical). | HTML |
 | [blogify](https://github.com/collins-muchiri/blogify/) | Framework-free blogging platform deployed on Vercel. | HTML |
 | [bucky-ops](https://github.com/collins-muchiri/bucky-ops/) | Bucky — persona brand hub for systems & blockchain engineering. | HTML |
+| [heart2heart-loveconnect](https://github.com/collins-muchiri/heart2heart-loveconnect/) | Heart 2 Heart & Love Connect Foundation charity site (Nakuru); WCAG 2.2 AA prototype. | HTML |
 | [kamama-digital-canvas](https://github.com/collins-muchiri/kamama-digital-canvas/) | Digital canvas for creative workflows; live on Vercel. | TypeScript |
 | [kamama-portfolio](https://github.com/collins-muchiri/kamama-portfolio/) | Governance-first portfolio of production-grade systems. | TypeScript |
-| [keja-halisi](https://github.com/collins-muchiri/keja-halisi/) | Nairobi TikTok rental anti-scam platform (Hakuna Kulipa Kabla Ya Kuona Nyumba). | — |
-| [nowa-systems](https://github.com/collins-muchiri/nowa-systems/) | Civic-tech platform for community empowerment and organizational management. | — |
+| [keja-halisi](https://github.com/collins-muchiri/keja-halisi/) | Nairobi TikTok rental anti-scam platform (Hakuna Kulipa Kabla Ya Kuona Nyumba). | TypeScript |
+| [nowa-systems](https://github.com/collins-muchiri/nowa-systems/) | Civic-tech platform for community empowerment and organizational management. | JavaScript |
 | [techsavanna-homepage](https://github.com/collins-muchiri/techsavanna-homepage/) | TechSavanna brand homepage with 3D design and animations. | HTML |
 
 ## Flagship spotlight
 
-**[gcf-food-security-intelligence](https://github.com/collins-muchiri/gcf-food-security-intelligence/)** — the flagship data-science platform: production-grade, end-to-end prediction of food-insecurity risk with climate-scenario simulation. It packages ingestion, feature engineering, model training and early-warning outputs into one governed Python codebase, built so that a food-security analyst can move from raw indicators to a ranked risk view without leaving the repository. The full formal title — Global Climate & Food Security Intelligence Platform — lives in the README and description; the repository carries the compact working name.
+**[gcf-food-security-intelligence](https://github.com/collins-muchiri/gcf-food-security-intelligence/)** — the flagship data-science platform: production-grade, end-to-end prediction of food-insecurity risk with climate-scenario simulation. It packages ingestion, feature engineering, model training and early-warning outputs into one governed Python codebase, built so that a food-security analyst can move from raw indicators to a ranked risk view without leaving the repository.
 
-**[mbumah-hardware-pos](https://github.com/collins-muchiri/mbumah-hardware-pos/)** — the flagship business system: a multi-tenant hardware-store point-of-sale and ERP in TypeScript. It models the full retail loop of Kenyan hardware retail — catalog, suppliers, sales, payments, stock and reporting — per tenant, and is the most operationally mature platform in the portfolio, carrying the account's richest topic coverage and active deployment.
+**[mbumah-hardware-pos](https://github.com/collins-muchiri/mbumah-hardware-pos/)** — the flagship business system: a multi-tenant hardware-store point-of-sale and ERP in TypeScript. It models the full retail loop of Kenyan hardware retail — catalog, suppliers, sales, payments, stock and reporting — per tenant, and is the most operationally mature platform in the account, carrying the richest topic coverage and active deployment.
 
-**[un-review-hub](https://github.com/collins-muchiri/un-review-hub/)** — a federated human-in-the-loop review platform designed for UN agencies. Its defining engineering decision is data sovereignty through partitioning: each agency's review data stays isolated while review workflows remain unified, which is the property that makes cross-agency review lawful in practice. It is the clearest statement of the account's governance-first architecture style.
+**[un-review-hub](https://github.com/collins-muchiri/un-review-hub/)** — a federated human-in-the-loop review platform designed for UN agencies. Its defining engineering decision is data sovereignty through partitioning: each agency's review data stays isolated while review workflows remain unified, which is the property that makes cross-agency review lawful in practice.
 
 **[sdg-rag-system](https://github.com/collins-muchiri/sdg-rag-system/)** — SDG-Trans-RAG, a retrieval-augmented generation system that grounds urban-transport intelligence in UN-Habitat SDG 11 frameworks and multi-modal transport data. It demonstrates the account's applied-RAG craft: retrieval over authoritative framework documents, fusion with operational data sources, and answers that stay citable and auditable.
 
-**[kenya-malnutrition-risk-prediction](https://github.com/collins-muchiri/kenya-malnutrition-risk-prediction/)** — an open-source digital tool predicting acute childhood malnutrition risk in Kenya with machine learning. It is public-health data science in the account's home market: survey and climate indicators in, ranked risk out, with the full formal system name preserved in the README. The repository was smart-shortened from a 52-character title-case chain to a readable kebab-case name.
+**[kenya-malnutrition-risk-prediction](https://github.com/collins-muchiri/kenya-malnutrition-risk-prediction/)** — an open-source digital tool predicting acute childhood malnutrition risk in Kenya with machine learning. Public-health data science in the account's home market: survey and climate indicators in, ranked risk out, with the full formal system name preserved in the README.
 
 ## Toolchain
 
@@ -141,15 +163,15 @@ documented trade-offs, so that every claim a system makes can be traced to evide
 
 ---
 
-**Account infrastructure** — this profile index and the private Zero-Red Mandate governance ledger.
+**Account infrastructure** — this profile index and the private Zero-Red Mandate governance ledger. Seven further private repositories — client-specific M&E tooling, ERP ticketing, media production and operations logs — are withheld from the public index; details on request.
 
-**Legacy archive** — [cv](https://github.com/collins-muchiri/cv/) kept public as the 2022-era CV record; the learning-era repositories (`android`, `android-ui`, `jupyter-predictions`, `trail-one`, `newsletter-popup-project`) are archived with context stubs.
+**Learning archive** — the 2022–2024 learning repositories ([android](https://github.com/collins-muchiri/android/), [android-ui](https://github.com/collins-muchiri/android-ui/), [jupyter-predictions](https://github.com/collins-muchiri/jupyter-predictions/), [trail-one](https://github.com/collins-muchiri/trail-one/), [newsletter-popup-project](https://github.com/collins-muchiri/newsletter-popup-project/)) are archived with context stubs: kept for the record, marked as superseded, and pointing at their production successors.
 
 ## Contact & collaboration
 
 Available for M&E data-systems work: platform builds, evaluation-support
 automation, donor-reporting pipelines and humanitarian data engineering across
 East Africa. The fastest routes in are the
-[portfolio site](https://kamama-digital-canvas.vercel.app) and
+[portfolio site](https://kamama-portfolio.vercel.app/) and
 [X / Twitter](https://x.com/blurred_cmk) — or open an issue on any public
 repository above and it will find me.
